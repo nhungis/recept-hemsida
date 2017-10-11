@@ -27,7 +27,7 @@
   <p class="search-title">Search recipe</p>
    <div class="search">
     <form action="browse.php" method="POST">
-    <label for="searchtitle">Title</label>
+   <!---<label for="searchtitle">Title</label>--->
       <input type="text" class="searchTerm" id="searchtitle" placeholder="Search recipes">
       <button type="submit" class="searchButton">
         <!--<i class="fa fa-search"></i>-->
