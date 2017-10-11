@@ -11,7 +11,7 @@
  <header class="site-header">
     <nav class="site-nav">
         <ul>
-            <li> <a href="index.html">Home</a></li>   
+            <li> <a href="index.php">Home</a></li>   
             <li> <a href="#">Favourites</a></li>
             <li> <a href="#">My recipes</a></li>
             <li> <a href="#">Contact</a></li>
