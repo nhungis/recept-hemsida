@@ -2,18 +2,25 @@
 <html>
 <head>
     <meta charset="UTF-8">
-   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
 
     <title>Recept</title>
 </head>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  <header class="site-header">
     <nav class="site-nav">
         <ul>
             <li> <a href="index.php">Home</a></li>   
+=======
+ <header class="site-header">
+    <nav class="site-nav">
+        <ul>
+            <li> <a href="index.html">Home</a></li>   
+>>>>>>> parent of aab1f8b... Revert "Merge branch 'master' of https://github.com/nhungvus/recept-hemsida"
             <li> <a href="#">Favourites</a></li>
             <li> <a href="#">My recipes</a></li>
             <li> <a href="#">Contact</a></li>
@@ -33,22 +40,66 @@
      </button>
    </div><!---search-title--->
 </div><!--end wrap-->
+<<<<<<< HEAD
 >>>>>>> 6c6168b9d01f514f653dc7aab647ce2a5cd2f355
+=======
+>>>>>>> parent of aab1f8b... Revert "Merge branch 'master' of https://github.com/nhungvus/recept-hemsida"
 
-  <?php include ("header.php"); ?> 
+</div> <!--end bread--> 
+     
+
+    
 <body>
-<main>
-<section id="photos">
-  <img src="img/fisk.jpeg">
-  <img src="img/stek.jpeg">
-  <img src="img/sallad.jpg">
-  <img src="img/kyckling.jpg">
-</section>
-</main>
  
+
+<div class="container">
+  <img img src="img/fisk.jpeg" class="image">
+  <div class="overlay">
+    <div class="text"><a href="fisk.php">Fishy fish</a></div>
+  </div>
+</div><!--end container-->
+
+<div class="container">
+  <img img src="img/stek.jpeg" class="image">
+  <div class="overlay">
+    <div class="text"><a href="stek.html">Steak</a></div>
+  </div>
+</div><!--end container-->
+
+<div class="container">
+  <img img src="img/chick.png" class="image">
+  <div class="overlay">
+    <div class="text"><a href="kyckling.html">Chicken</a></div>
+  </div>
+</div><!--end container-->
+
+<div class="container">
+  <img img src="img/sallad.jpg" class="image">
+  <div class="overlay">
+    <div class="text"><a href="sallad.html">Salad</a></div>
+  </div>
+</div><!--end container-->
+
+
+<div class="container">
+  <img img src="img/pasta.jpg" class="image">
+  <div class="overlay">
+    <div class="text"><a href="pasta.html">Pasta</a></div>
+  </div>
+</div><!--end container-->
+
+<div class="container">
+  <img img src="img/bröd.jpg" class="image">
+  <div class="overlay">
+    <div class="text"><a href="bröd.html">Bread</a></div>
+  </div>
+</div><!--end container-->
+
 
     
 </body>
     
- <?php include ("footer.php"); ?>
+<footer>
+    <p> Copyright, Ellinor Ek, Fannie Pihl, Nhung Vu, 2017.</p>
+</footer>
 </html>
