@@ -1,6 +1,6 @@
 <footer>
-    <p> Copyright, Ellinor Ek, Fannie Pihl, Nhung Vu, 2017.</p>
+    <p> Copyright, Ellinor Ek, Fannie Pihl, Nhung Vu, 2017 heelloo.</p>
 
 
-    <h2>HELLOOO </h2>
+
 </footer>
