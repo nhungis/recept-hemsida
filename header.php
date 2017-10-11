@@ -1,5 +1,3 @@
-<?php include("config.php") ?>
-
 <header class="site-header">
     <nav class="site-nav">
         <ul>
