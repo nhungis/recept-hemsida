@@ -1,0 +1,286 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:900);
+
+/* COMMON */
+body {
+    margin: 0 auto;
+    background-image: url(img/wood.png);
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 12px;
+   
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* HEADER */
+
+h1.bread-titel{
+    color: white;
+    font-size: 146px;
+    text-align: center;
+    margin: 0;
+    padding-top: 66px;
+    font-family: 'Playfair Display', serif;
+    font-weight:800;
+}
+/* Headerbilder*/
+#bread{
+    background-image:url(img/bread.jpg);
+    height: 850px;
+ 
+}
+
+#fish{
+    background-image:url(img/loser.jpg);
+    height: 650px;
+    background-size: cover;
+    
+}
+.site-header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px 0 8px 0px;
+    z-index: 1;
+}
+.site-header nav ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 6px;
+}
+.site-header nav ul li a {
+    margin-left: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+    display: block;/*block elements so we can add them padding*/
+    padding: 10px 12px;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.site-header nav ul li a:hover {
+    color: #7A7A7A;
+}   
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu.item a:visited,
+.site-header nav ul li.current-page-ancestor a:link,
+.site-header nav ul li.current-page-ancestor a:visited {
+    font-weight: bold;
+    color: #FFF;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav ul li {
+    list-style: none;
+    float: left;
+}
+
+/* SEARCH */
+
+.search-title {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+    margin-top: 10px;
+}
+
+.magnify {
+  width: 18px;
+  margin-top: 4px;
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 1px solid #fff;
+  padding: 5px;
+  height: 20px;
+  border-radius: 1px;
+  outline: none;
+  color: brown;
+}
+
+.searchTerm:focus{
+  color: #000;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 40px;
+  height: 32px;
+  border: 1px solid #fff;
+  background: #fff;
+  text-align: center;
+  color: #fff;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Container */ 
+
+.container {
+  position: relative;
+  width: 33.33%;
+  margin: 0;
+  float: left;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #efefef;
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: #000000;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* FOOTER */
+
+footer{
+    background-color: dimgray;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding:0;
+    display: table;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* FISK-SIDAN */
+
+/* HEADER */
+
+.fish-logga {
+  margin-left: 24px;
+  margin-top: 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight:600;
+}
+h1.fish-title {
+  color: white;
+  font-size: 94px;
+  text-align: center;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight:800;
+  padding-top: 118px;
+}
+
+.fish-recipe {
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-weight:600;
+  margin-left: 48px;
+  margin-top: 56px;
+  margin-bottom: 44px;
+}
+
+/* Container */ 
+
+.bigfish-container {
+  margin: 0 auto;
+  max-width: 100%;
+  margin-left: 88px;
+}
+
+.fish-container {
+  position: relative;
+  width: 33.33%;
+  margin: 0;
+  float: left;
+}
+
+.fish-image {
+  display: block;
+  width: 75%;
+  height: auto;
+}
+
+.fish-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 75%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #efefef;
+}
+
+.fish-container:hover .fish-overlay {
+  opacity: 0.7;
+}
+
+/*.fish-text {
+  color: #000000;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}*/
+
+.fish-rubrik {
+  color: #fff;
+}
