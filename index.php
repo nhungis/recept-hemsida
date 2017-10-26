@@ -84,7 +84,7 @@
 <div class="container">
   <img img src="img/pasta.jpg" class="image">
   <div class="overlay">
-    <div class="text"><a href="pasta.html">Pasta</a></div>
+    <div class="text"><a href="pasta.php">Pasta</a></div>
   </div>
 </div><!--end container-->
 
