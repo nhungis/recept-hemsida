@@ -96,14 +96,14 @@ h1.bread-titel{
   font-family: 'Playfair Display', serif;
   color: white;
   font-weight: 600;
-    font-size: 20px;
-    margin: 0;
+  font-size: 20px;
+  margin: 0;
 }
 
 .search {
   width: 100%;
   position: relative;
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .magnify {
@@ -127,7 +127,8 @@ h1.bread-titel{
 }
 
 .searchButton {
-  position: absolute;  
+  position: absolute;
+  bottom: -32px;  
   right: -50px;
   width: 40px;
   height: 32px;
