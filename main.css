@@ -40,6 +40,14 @@ h1.bread-titel{
     background-size: cover;
     
 }
+
+#pasta{
+    background-image:url(img/bg/pasta.jpg);
+    height: 650px;
+    background-size: cover;
+    
+}
+
 .site-header nav {
     position: fixed;
     top: 0;
@@ -284,3 +292,80 @@ h1.fish-title {
 .fish-rubrik {
   color: #fff;
 }
+
+/* PASTA SIDAN */
+
+/* HEADER */
+
+.pasta-logga {
+  margin-left: 24px;
+  margin-top: 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight:600;
+}
+h1.pasta-title {
+  color: white;
+  font-size: 94px;
+  text-align: center;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight:800;
+  padding-top: 118px;
+}
+
+.pasta-recipe {
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-weight:600;
+  margin-left: 48px;
+  margin-top: 56px;
+  margin-bottom: 44px;
+}
+
+
+/* Container */ 
+
+.muchpasta-container {
+  margin: 0 auto;
+  max-width: 100%;
+  margin-left: 88px;
+}
+
+.pasta-container {
+  position: relative;
+  width: 33.33%;
+  margin: 0;
+  float: left;
+}
+
+.pasta-image {
+  display: block;
+  width: 75%;
+  height: auto;
+}
+
+.pasta-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 75%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #efefef;
+}
+
+.pasta-container:hover .pasta-overlay {
+  opacity: 0.7;
+}
+
+.pasta-rubrik {
+  color: #fff;
+}
+
+
+
+
